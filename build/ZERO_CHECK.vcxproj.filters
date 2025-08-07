@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\dev\kraken_mar_engine\build\CMakeFiles\d65aa8375c911fb7b4fb365cbc85727b\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{324D9CFA-6D3E-3D0F-9C44-89D46FA239BA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

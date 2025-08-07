@@ -1,0 +1,13 @@
+{
+    // ... other settings might be here ...
+    "cmake.configureArgs": [
+        "-DPostgreSQL_INCLUDE_DIR=C:/Program Files/PostgreSQL/17/include",
+        "-DPostgreSQL_LIBRARY=C:/Program Files/PostgreSQL/17/lib/libpq.lib"
+    ],
+    "files.associations": {
+        "xstring": "cpp",
+        "chrono": "cpp",
+        "optional": "cpp",
+        "deque": "cpp"
+    }
+}
