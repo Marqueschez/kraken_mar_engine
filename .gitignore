@@ -1,0 +1,26 @@
+# Build output
+build/
+out/
+*.exe
+*.pdb
+*.obj
+*.ilk
+*.lib
+*.exp
+*.tlog
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# Data (large generated CSVs, not suitable for git)
+data/
+
+# Claude local settings
+.claude/settings.local.json
+
+# Editor / OS
+.vs/
+*.user
+Thumbs.db

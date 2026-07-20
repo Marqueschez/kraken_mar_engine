@@ -24,17 +24,26 @@ struct AppConfig
         "BTC/USD", "ETH/USD", "SOL/USD", "XRP/USD", "DOGE/USD",
         "ADA/USD", "LTC/USD", "LINK/USD", "DOT/USD", "USDT/USD"};
     long long resampling_interval_ms = 100; // Generate a feature matrix every 100ms
-    std::string start_time = "2025-08-02T17:41:47.000000Z";
-    std::string end_time = "2025-08-02T22:57:44.000000Z";
-    // 0 - 5hr
+    std::string start_time = "2025-08-12T07:37:59.000000Z";
+    std::string end_time = "2025-08-12T10:55:55.000000Z";
+
+    // cd C:\dev\kraken_mar_engine
+    // C:\dev\kraken_mar_engine\build\Debug\feature_engine.exe
+
+    // 0 - 5 hr 15 min
     // std::string start_time = "2025-08-02T17:41:47.000000Z"; actual start time
     // std::string end_time = "2025-08-02T22:57:44.000000Z";
-    // 1 - 8hr
-    // std::string start_time = "2025-08-03T16:49:30.000000Z"; actual start time
-    // std::string end_time = "2025-08-04T00:49:30.000000Z";
+    // 1 - 3 hr 20 min
+    // std::string start_time = "2025-08-12T07:37:59.000000Z"; actual start time
+    // std::string end_time = "2025-08-12T10:55:55.000000Z";
+    // 2 - 7 hr 30 min
+    // std::string start_time = "2025-08-21T23:42:00.000000Z"; actual start time
+    // std::string end_time = "2025-08-22T07:12:00.000000Z";
+
+    // 2025-08-21T23:42:00 - 14hr - 2025-08-22T07:12:00
 
     // --- Feature Hyperparameters ---
-    int lob_depth_for_features = 5; // Using all 8 levels available
+    int lob_depth_for_features = 5; // Not using all 8 levels available
     WeightingScheme level_weighting_scheme = WeightingScheme::LINEAR;
 
     // Window lengths for contextual features
@@ -46,5 +55,5 @@ struct AppConfig
 
     // --- Output Configuration ---
     std::string output_csv_path = "data/features_output3.csv";
-    build
+    // BUILD THE PROJECT BEFORE RUNNING !!!!!
 };
